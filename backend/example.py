@@ -1,8 +1,6 @@
-import os
-from openai import OpenAI
+import openai
 
-openai.api_key = "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" # This is the default and can be omitted
-
+openai.api_key = "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"
 chat_completion = openai.chat.completions.create(
     messages=[
         {
