@@ -1,7 +1,7 @@
 import openai
 from googlesearch import search
 
-query = "Nestle BBC"
+query = "Nestle BBC "
 results = [result for result in search(query, num_results=5)]
 
 for result in results:
